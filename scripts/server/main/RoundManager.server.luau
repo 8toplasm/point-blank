@@ -12,12 +12,12 @@ round_classes = {
 	{
 		singles = {},
 		mod = 1,
-		zombie = 80,
+		zombie = 78,
 		skater = 10,
 		scout = 10,
-		jugger = 0, --1
+		jugger = 0, --3
 		howler = 0, --5
-		kami = 0, --1
+		kami = 2,
 		classname = "Regular",
 		color = Color.FromHex("ffffff")
 	},
@@ -61,8 +61,8 @@ round_classes = {
 round_chance = {
 	80, --75
 	0, --7
-	20, --15
-	0 --3
+	15, --15
+	5 --3
 }
 
 zombie_classes = {
