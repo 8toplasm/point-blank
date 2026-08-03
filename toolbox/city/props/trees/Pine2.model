@@ -1,0 +1,1483 @@
+{
+  "Version": "2.0.21",
+  "FileType": 1,
+  "Objects": [
+    {
+      "Name": "Pine2",
+      "ClassName": "Model",
+      "ID": "e2c21c9b-d724-4b1d-ab75-be24695b95a2",
+      "Properties": {
+        "LocalPosition": [
+          -6.9319963,
+          34.600002,
+          29.999996
+        ],
+        "LocalRotation": [
+          -0,
+          0,
+          0
+        ],
+        "LocalSize": [
+          0.864,
+          0.864,
+          0.864
+        ],
+        "Tags": []
+      },
+      "Children": [
+        {
+          "Name": "Model",
+          "ClassName": "Model",
+          "ID": "5159a13e-1551-48bd-afd6-97af33e898ee",
+          "Properties": {
+            "LocalPosition": [
+              0,
+              16.939302,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              85.00002,
+              0
+            ],
+            "LocalSize": [
+              0.7,
+              0.7,
+              0.7
+            ],
+            "Tags": []
+          },
+          "Children": [
+            {
+              "Name": "Brick",
+              "ClassName": "Part",
+              "ID": "1188ce76-b8df-4fa4-b482-eeac8972beb3",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -7.189301,
+                  0,
+                  0.24999997
+                ],
+                "LocalRotation": [
+                  45.000004,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14.000002
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick3",
+              "ClassName": "Part",
+              "ID": "bf51bb25-03c6-4362-b3eb-4a0fa6bd34ac",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.7500001,
+                  0,
+                  7.189301
+                ],
+                "LocalRotation": [
+                  45,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14.000002
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick5",
+              "ClassName": "Part",
+              "ID": "5e59de8c-05a6-47c4-8369-d1784e562199",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  7.189301,
+                  0,
+                  0.24999997
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14.000002
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick7",
+              "ClassName": "Part",
+              "ID": "ab8c7f05-2a10-42db-9d01-c93b687dd890",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.7500001,
+                  0,
+                  -7.189301
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14.000002
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            }
+          ],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Model3",
+          "ClassName": "Model",
+          "ID": "fdc9db1a-fb79-4a1e-b837-a6ebb43cfaca",
+          "Properties": {
+            "LocalPosition": [
+              0,
+              -5.0606985,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              45.00011,
+              0
+            ],
+            "LocalSize": [
+              1,
+              1,
+              1
+            ],
+            "Tags": []
+          },
+          "Children": [
+            {
+              "Name": "Brick",
+              "ClassName": "Part",
+              "ID": "ca4628fb-825a-4510-b260-6fed0f401a25",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -7.1892996,
+                  0,
+                  0.25000003
+                ],
+                "LocalRotation": [
+                  45.000004,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick3",
+              "ClassName": "Part",
+              "ID": "74536272-0242-49e7-bf5e-fc98253ac24e",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.75,
+                  0,
+                  7.1892996
+                ],
+                "LocalRotation": [
+                  45,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick5",
+              "ClassName": "Part",
+              "ID": "0b56a8f5-1129-4c66-ad77-2325389cfa1a",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  7.1892996,
+                  0,
+                  0.25000003
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick7",
+              "ClassName": "Part",
+              "ID": "c875ab98-b9fe-46a2-b67d-397ca848c9ce",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.75,
+                  0,
+                  -7.1892996
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            }
+          ],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Model5",
+          "ClassName": "Model",
+          "ID": "7fbc611c-e82e-4ca1-976e-2361fe1ca846",
+          "Properties": {
+            "LocalPosition": [
+              0,
+              3.4393,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              45.00011,
+              0
+            ],
+            "LocalSize": [
+              1,
+              1,
+              1
+            ],
+            "Tags": []
+          },
+          "Children": [
+            {
+              "Name": "Brick",
+              "ClassName": "Part",
+              "ID": "a85e9b13-ccf1-41ee-8f04-62b6fcbce007",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -7.1892996,
+                  0,
+                  0.25000003
+                ],
+                "LocalRotation": [
+                  45.000004,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick3",
+              "ClassName": "Part",
+              "ID": "54a367a9-ad88-4ed9-8cbd-d6b65b371226",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.75,
+                  0,
+                  7.1892996
+                ],
+                "LocalRotation": [
+                  45,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick5",
+              "ClassName": "Part",
+              "ID": "826e72c2-fa14-4824-8223-239fb651a0a6",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  7.1892996,
+                  0,
+                  0.25000003
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick7",
+              "ClassName": "Part",
+              "ID": "0e2a0ac6-95b9-48c6-8d65-dd40cd6b82d2",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.75,
+                  0,
+                  -7.1892996
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            }
+          ],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Model7",
+          "ClassName": "Model",
+          "ID": "94841e7a-0580-41cc-8107-d749b6b1380d",
+          "Properties": {
+            "LocalPosition": [
+              0,
+              3.4393,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              45.00011,
+              0
+            ],
+            "LocalSize": [
+              1,
+              1,
+              1
+            ],
+            "Tags": []
+          },
+          "Children": [
+            {
+              "Name": "Brick",
+              "ClassName": "Part",
+              "ID": "448c2b95-e5c8-41cb-8939-cfdf98949cd0",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -7.1892996,
+                  0,
+                  0.25000003
+                ],
+                "LocalRotation": [
+                  45.000004,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick3",
+              "ClassName": "Part",
+              "ID": "fa5e0fde-d318-4f79-b76c-02b1125108c7",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.75,
+                  0,
+                  7.1892996
+                ],
+                "LocalRotation": [
+                  45,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick5",
+              "ClassName": "Part",
+              "ID": "bc754884-826c-4b21-9015-4db0b7e73cb6",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  7.1892996,
+                  0,
+                  0.25000003
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick7",
+              "ClassName": "Part",
+              "ID": "84010c8f-7001-440e-9d8a-7985ecea29cd",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.75,
+                  0,
+                  -7.1892996
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            }
+          ],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Model9",
+          "ClassName": "Model",
+          "ID": "053fb645-398d-42b7-a3d6-82e9a3c7ec1b",
+          "Properties": {
+            "LocalPosition": [
+              0,
+              22.939302,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              50.000088,
+              0
+            ],
+            "LocalSize": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "Tags": []
+          },
+          "Children": [
+            {
+              "Name": "Brick",
+              "ClassName": "Part",
+              "ID": "80151165-8aff-4530-b6af-9cc818117ee2",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -7.1892996,
+                  0,
+                  0.25000003
+                ],
+                "LocalRotation": [
+                  45.000004,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick3",
+              "ClassName": "Part",
+              "ID": "21ece875-ea37-4436-a551-9301215b556a",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.75,
+                  0,
+                  7.1892996
+                ],
+                "LocalRotation": [
+                  45,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick5",
+              "ClassName": "Part",
+              "ID": "9ca36b15-b057-4e1b-a736-6d01ecb036f3",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  7.1892996,
+                  0,
+                  0.25000003
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick7",
+              "ClassName": "Part",
+              "ID": "911ba65e-188f-4608-8bc2-3102d4acdf9d",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.75,
+                  0,
+                  -7.1892996
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            }
+          ],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Model11",
+          "ClassName": "Model",
+          "ID": "b55c0fdf-9188-4ff2-921c-4786db91c621",
+          "Properties": {
+            "LocalPosition": [
+              0,
+              9.4393,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              85.00002,
+              0
+            ],
+            "LocalSize": [
+              0.8999999,
+              0.8999999,
+              0.8999999
+            ],
+            "Tags": []
+          },
+          "Children": [
+            {
+              "Name": "Brick",
+              "ClassName": "Part",
+              "ID": "814d7968-4bc6-46aa-abb3-c626ddf67f4f",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -7.1893,
+                  0,
+                  0.25
+                ],
+                "LocalRotation": [
+                  45.000004,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999995,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick3",
+              "ClassName": "Part",
+              "ID": "63c25896-57fb-445e-978e-c168c9f5993b",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.7500001,
+                  0,
+                  7.1893
+                ],
+                "LocalRotation": [
+                  45,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999995,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick5",
+              "ClassName": "Part",
+              "ID": "64e844ca-c27c-436a-993a-b5ab161d05f9",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  7.1893,
+                  0,
+                  0.25
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999995,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick7",
+              "ClassName": "Part",
+              "ID": "ae1702d2-20ba-419d-bc54-bfdc79e82d5a",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.7500001,
+                  0,
+                  -7.1893
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999995,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            }
+          ],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Brick",
+          "ClassName": "Part",
+          "ID": "582c6e5c-0422-4c84-abc5-20a18ddf140e",
+          "Properties": {
+            "Material": 13,
+            "Color": "815119ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              0,
+              -23.25,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              0,
+              0
+            ],
+            "LocalSize": [
+              3.5,
+              3.4999998,
+              3.5
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Brick3",
+          "ClassName": "Part",
+          "ID": "c5fc7114-8ce7-4919-8e15-bb1c7c4f6e77",
+          "Properties": {
+            "Material": 13,
+            "Color": "cb893dff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              0,
+              0.75,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              0,
+              0
+            ],
+            "LocalSize": [
+              2.9999998,
+              48.499996,
+              2.9999998
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Model13",
+          "ClassName": "Model",
+          "ID": "c3b07e07-f00a-451e-a188-0dbba6eb4061",
+          "Properties": {
+            "LocalPosition": [
+              0.50000006,
+              -11.560699,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              0,
+              0
+            ],
+            "LocalSize": [
+              1.2000002,
+              1.2000002,
+              1.2000002
+            ],
+            "Tags": []
+          },
+          "Children": [
+            {
+              "Name": "Brick",
+              "ClassName": "Part",
+              "ID": "50d19a41-a2c4-4dfc-9efd-4799f9e1cfdd",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  7.189299,
+                  0,
+                  0.25
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick3",
+              "ClassName": "Part",
+              "ID": "e814fd1b-061b-4eb2-a722-cf9b784bafe6",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.75,
+                  0,
+                  7.189299
+                ],
+                "LocalRotation": [
+                  45,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick5",
+              "ClassName": "Part",
+              "ID": "829ad4f2-dbc2-4a34-818c-c50083d5888f",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -7.189299,
+                  0,
+                  0.25
+                ],
+                "LocalRotation": [
+                  45.000004,
+                  -90,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            },
+            {
+              "Name": "Brick7",
+              "ClassName": "Part",
+              "ID": "23ee156a-0803-48b6-bf42-cecae19cc662",
+              "Properties": {
+                "Material": 13,
+                "Color": "09b63dff",
+                "Velocity": [
+                  -0,
+                  0,
+                  0
+                ],
+                "AngularVelocity": [
+                  0,
+                  -0,
+                  -0
+                ],
+                "Anchored": true,
+                "CanCollide": false,
+                "CollisionLayers": 1,
+                "CollisionMask": 1,
+                "LocalPosition": [
+                  -0.75,
+                  0,
+                  -7.189299
+                ],
+                "LocalRotation": [
+                  -45.00011,
+                  0,
+                  0
+                ],
+                "LocalSize": [
+                  8,
+                  2.9999998,
+                  14
+                ],
+                "Tags": []
+              },
+              "Children": [],
+              "LinkedModel": null,
+              "IsLinkedChild": false
+            }
+          ],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        }
+      ],
+      "LinkedModel": "dd26a421-0c8b-4cb8-b6b3-b03b2a46610f",
+      "IsLinkedChild": false
+    }
+  ],
+  "NonInstanceObjects": []
+}

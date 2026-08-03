@@ -10,6 +10,12 @@ script.Parent.Died:Connect(function()
 	end
 end)
 
+Players.PlayerRemoved:Connect(function(plr)
+	if Environment.Entities.Players:FindChild(tostring(plr.UserID))  ~= nil then
+		Environment.Entities.Players:FindChild(tostring(plr.UserID)):Destroy()
+	end
+end)
+
 rs.GameRestarted.Invoked:Connect(function()
 	if Environment.Entities.Players:FindChild(tostring(script.Parent.UserID)) == nil then
 		print("Player joining...")

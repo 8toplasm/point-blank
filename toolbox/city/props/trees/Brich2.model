@@ -1,0 +1,283 @@
+{
+  "Version": "2.0.21",
+  "FileType": 1,
+  "Objects": [
+    {
+      "Name": "Brich2",
+      "ClassName": "Model",
+      "ID": "58ffd96d-66a0-4d43-8b8a-b2f0d39ce654",
+      "Properties": {
+        "LocalPosition": [
+          8.895523,
+          28.840004,
+          34.17786
+        ],
+        "LocalRotation": [
+          -0,
+          -99.999985,
+          0
+        ],
+        "LocalSize": [
+          0.7199999,
+          0.71999997,
+          0.7199999
+        ],
+        "Tags": []
+      },
+      "Children": [
+        {
+          "Name": "Brick",
+          "ClassName": "Part",
+          "ID": "4ad7afec-1d94-40cb-ae2b-34946515ed0f",
+          "Properties": {
+            "Material": 13,
+            "Color": "a795c9ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -1,
+              -20.750006,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              0,
+              0
+            ],
+            "LocalSize": [
+              2,
+              2.5,
+              2
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Brick3",
+          "ClassName": "Part",
+          "ID": "222afa1f-c144-42eb-b95f-1bfb2fa70e0b",
+          "Properties": {
+            "Color": "ffde1dff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": false,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -6.7500005,
+              7.000001,
+              3.0000007
+            ],
+            "LocalRotation": [
+              -0,
+              0,
+              0
+            ],
+            "LocalSize": [
+              6.0000005,
+              25.000002,
+              6.5000005
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Brick5",
+          "ClassName": "Part",
+          "ID": "0263247d-41c6-4484-bd5f-5ea8c10a63ef",
+          "Properties": {
+            "Color": "ffde1dff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": false,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -0.7500002,
+              15.500005,
+              -3.0000007
+            ],
+            "LocalRotation": [
+              -0,
+              0,
+              0
+            ],
+            "LocalSize": [
+              6.0000005,
+              25.000002,
+              6.5000005
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Brick7",
+          "ClassName": "Part",
+          "ID": "4180874d-c9cf-4339-93b0-dc27e42a2bae",
+          "Properties": {
+            "Color": "ffde1dff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": false,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              3.7500012,
+              4.2500014,
+              1.2500006
+            ],
+            "LocalRotation": [
+              -0,
+              0,
+              0
+            ],
+            "LocalSize": [
+              8,
+              18.5,
+              8
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Brick9",
+          "ClassName": "Part",
+          "ID": "e6f21b90-924c-414f-98f2-cf656342723d",
+          "Properties": {
+            "Material": 13,
+            "Color": "ffffffff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -1,
+              -7.000001,
+              0
+            ],
+            "LocalRotation": [
+              -0,
+              0,
+              0
+            ],
+            "LocalSize": [
+              1.5000001,
+              25.999998,
+              1.5000001
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Brick11",
+          "ClassName": "Part",
+          "ID": "f7fc5c15-c001-4701-b00c-f3aaf826031e",
+          "Properties": {
+            "Material": 13,
+            "Color": "ffffffff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -3.6429012,
+              -2.25,
+              1.0252002
+            ],
+            "LocalRotation": [
+              -0,
+              20.000175,
+              0
+            ],
+            "LocalSize": [
+              6.5000005,
+              1.5,
+              1.5000001
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        }
+      ],
+      "LinkedModel": "7802217e-228a-4bfd-9cab-abcd42d879d0",
+      "IsLinkedChild": false
+    }
+  ],
+  "NonInstanceObjects": []
+}

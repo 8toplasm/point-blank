@@ -1,0 +1,1756 @@
+{
+  "Version": "2.0.21",
+  "FileType": 1,
+  "Objects": [
+    {
+      "Name": "FarBuild2-1",
+      "ClassName": "Model",
+      "ID": "ce355662-ceec-43bf-a1be-9d888c449b96",
+      "Properties": {
+        "LocalPosition": [
+          -235.16989,
+          111.779724,
+          18.753042
+        ],
+        "LocalRotation": [
+          -0,
+          0,
+          0
+        ],
+        "LocalSize": [
+          1,
+          1,
+          1
+        ],
+        "Tags": []
+      },
+      "Children": [
+        {
+          "Name": "Part",
+          "ClassName": "Part",
+          "ID": "2be7b1fd-4104-4267-9e45-1c909239103f",
+          "Properties": {
+            "Material": 13,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              15.33847,
+              109.101166,
+              -10.154486
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              2.4747834,
+              19.798199,
+              2.4747834
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part3",
+          "ClassName": "Part",
+          "ID": "ea10a29d-37d2-4ef6-a05b-0535c8fec2ca",
+          "Properties": {
+            "Material": 13,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              15.33847,
+              132.61148,
+              -10.1545315
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              1.2373917,
+              29.697264,
+              1.2373917
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part5",
+          "ClassName": "Part",
+          "ID": "f682c714-2146-49f8-97cf-b7580e7f47c2",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              1.913269,
+              71.979706,
+              -13.065817
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              13.6112385,
+              13.611238
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part7",
+          "ClassName": "Part",
+          "ID": "f290f950-f1ee-49e3-b73c-85a1b15f0e1b",
+          "Properties": {
+            "Material": 13,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              27.4404,
+              93.63406,
+              -1.7992306
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              45.78328,
+              6.18696,
+              19.798197
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part9",
+          "ClassName": "Part",
+          "ID": "2446b162-0228-41d4-8a03-1dce5be6623f",
+          "Properties": {
+            "Material": 13,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              14.068817,
+              97.964874,
+              -6.666128
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              4.949567,
+              4.9495687,
+              12.373846
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part11",
+          "ClassName": "Part",
+          "ID": "83fd0b13-3af7-424a-9972-a9be18646413",
+          "Properties": {
+            "Material": 13,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              12.429535,
+              112.81351,
+              -3.9709225
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              1.2373917,
+              29.697264,
+              1.2373917
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part13",
+          "ClassName": "Part",
+          "ID": "07bd4dba-d09b-4006-ab41-c7c85fd9dbb8",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              1.913269,
+              50.94394,
+              -13.065817
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              13.611238
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part15",
+          "ClassName": "Part",
+          "ID": "fd91632b-877d-4e6a-a648-74112d2d596a",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -1.4721985,
+              83.11618,
+              -3.7635555
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              23.510374
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part17",
+          "ClassName": "Part",
+          "ID": "fa8e1c81-0502-4eca-bbac-9d9ad87ca6ad",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              1.913269,
+              7.6357117,
+              -13.065817
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              13.611238
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part19",
+          "ClassName": "Part",
+          "ID": "fbc44ca1-6c26-4235-a4ed-485fd57a87c2",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -5.7046814,
+              75.69174,
+              7.863962
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              13.611238
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part21",
+          "ClassName": "Part",
+          "ID": "86ad85ea-6a87-4652-b154-99092826b67a",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -1.4722595,
+              0.2112732,
+              -3.763647
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              23.510374
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part23",
+          "ClassName": "Part",
+          "ID": "e95249e2-1e66-4eed-9fdb-2f877ea1445c",
+          "Properties": {
+            "Material": 13,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              23.419891,
+              -3.500946,
+              9.246958
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              55.68242,
+              190.55757,
+              55.68242
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part25",
+          "ClassName": "Part",
+          "ID": "b04199dc-0cbf-4b85-986f-96da8f4f7cee",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              0.22018433,
+              -23.299042,
+              -8.41477
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              8.661744,
+              23.510374
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part27",
+          "ClassName": "Part",
+          "ID": "63ae8ec6-4f7a-4f49-9ce5-96951259e2fa",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -4.434845,
+              -7.212982,
+              4.3757267
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              6.1869597
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part29",
+          "ClassName": "Part",
+          "ID": "8b29fcb7-6543-46c1-8246-0e6522a70f22",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              0.00869751,
+              20.628265,
+              -7.8334866
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              14.848632,
+              17.323414
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part31",
+          "ClassName": "Part",
+          "ID": "1adaf01f-be2e-4e23-877c-3f8dcabc22e4",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              0.008636475,
+              31.764496,
+              -7.8334103
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              4.9495687,
+              17.323414
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part33",
+          "ClassName": "Part",
+          "ID": "450247a6-5e99-47f2-a60c-a5d13809f26d",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -5.91626,
+              -14.63736,
+              8.445353
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              29.69726
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part35",
+          "ClassName": "Part",
+          "ID": "fc183638-ee7d-4805-b611-751b2688c802",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -3.1654358,
+              7.6357117,
+              0.88733864
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              13.611238
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part37",
+          "ClassName": "Part",
+          "ID": "d7fd4c2c-a742-4c3b-a236-c69fffdb71db",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -4.434845,
+              59.60556,
+              4.3757267
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              8.661744,
+              35.884216
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part39",
+          "ClassName": "Part",
+          "ID": "4f4f0f1b-bdb8-4a1e-9172-8a3bfc424899",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -7.397461,
+              -25.773712,
+              12.514994
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              13.6112385,
+              18.560806
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part41",
+          "ClassName": "Part",
+          "ID": "860a4ef6-93ea-43fb-9fc2-67d7b8fd81c4",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -6.9743958,
+              27.433685,
+              11.351999
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              13.6112385,
+              21.035591
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part43",
+          "ClassName": "Part",
+          "ID": "e8ddbc5e-b3c2-4925-a642-19dbce55eebd",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -8.244049,
+              3.9233704,
+              14.840342
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              13.6112385,
+              13.611238
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part45",
+          "ClassName": "Part",
+          "ID": "d425b978-b763-42b3-b20e-76c8f6285946",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -8.243866,
+              50.94394,
+              14.840525
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              13.611238
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part47",
+          "ClassName": "Part",
+          "ID": "a417a63d-9b3f-4d87-a0df-412dccbf96df",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -2.742218,
+              -36.910248,
+              -0.27544212
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              11.136455
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part49",
+          "ClassName": "Part",
+          "ID": "c857fb26-fda2-4c6c-a9d9-00d1752ebc3a",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              2.3363647,
+              -36.910248,
+              -14.22872
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              16.086021
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part51",
+          "ClassName": "Part",
+          "ID": "7c0e2011-df54-4f17-b179-234dfc8dcaa0",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -8.455505,
+              -7.212982,
+              15.421854
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              14.84863
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part53",
+          "ClassName": "Part",
+          "ID": "52882233-988b-49ad-ae9e-89d8bef5a126",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -2.742218,
+              -44.334747,
+              -0.27544212
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              23.510374
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part55",
+          "ClassName": "Part",
+          "ID": "cafc908b-0e20-4bc1-b82e-d4d52d10a6c7",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -9.51358,
+              75.69174,
+              18.328867
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              6.1869597
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part57",
+          "ClassName": "Part",
+          "ID": "f475ff77-9077-415f-9b9b-931799de27ab",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              0.008636475,
+              -51.140167,
+              -7.8334103
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              4.9495687,
+              17.323414
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part59",
+          "ClassName": "Part",
+          "ID": "16d7756f-c3d7-4f4d-be4a-f5955c1eb1bb",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -6.9743958,
+              -55.4711,
+              11.351999
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              13.6112385,
+              21.035591
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part61",
+          "ClassName": "Part",
+          "ID": "92dca7fe-5c96-47c3-9394-addba18cd294",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              4.664093,
+              -55.4711,
+              -20.623663
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              8.661744,
+              7.4243507
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part63",
+          "ClassName": "Part",
+          "ID": "3ecdde21-1896-4b5c-b915-b3615bc0e4cb",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              0.008636475,
+              -62.276825,
+              -7.8334103
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              14.848632,
+              17.323414
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part65",
+          "ClassName": "Part",
+          "ID": "eef77a6d-6c53-4c9a-aa15-597d1923780c",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -7.820648,
+              -66.607635,
+              13.677744
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              16.086021
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part67",
+          "ClassName": "Part",
+          "ID": "7035e59e-c624-42ce-8526-8396c167436d",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              4.6641235,
+              -65.37021,
+              -20.6238
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              8.661744,
+              7.4243507
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part69",
+          "ClassName": "Part",
+          "ID": "ed5e5d1b-f2f3-459f-9845-c95298e1e8e6",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -9.72525,
+              -74.03183,
+              18.910044
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              4.949567
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part71",
+          "ClassName": "Part",
+          "ID": "5cbdf466-ea68-49a0-91ce-0a7378a72ca8",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -6.762665,
+              -74.03183,
+              10.770884
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              9.899063
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part73",
+          "ClassName": "Part",
+          "ID": "cda2e725-5bce-4ef0-a11f-be06693441ba",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              1.4900513,
+              -74.03183,
+              -11.903036
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              6.18696,
+              21.035591
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part75",
+          "ClassName": "Part",
+          "ID": "42bbc966-a5e7-406b-b44e-e669db5937eb",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -1.8957825,
+              -80.837585,
+              -2.601019
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              4.9495687,
+              6.1869597
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part77",
+          "ClassName": "Part",
+          "ID": "06a0912d-7891-48a7-bbe5-b6e864f92630",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -4.434845,
+              -80.837585,
+              4.3757267
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              4.9495687,
+              6.1869597
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part79",
+          "ClassName": "Part",
+          "ID": "0ef310e7-798d-418d-b370-f0c01a2c596f",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -8.244049,
+              -85.168396,
+              14.840342
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              13.6112385,
+              13.611238
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        },
+        {
+          "Name": "Part81",
+          "ClassName": "Part",
+          "ID": "e9de2df2-854b-48db-98a7-d947787986d0",
+          "Properties": {
+            "Material": 11,
+            "Color": "1b2a35ff",
+            "Velocity": [
+              -0,
+              0,
+              0
+            ],
+            "AngularVelocity": [
+              0,
+              -0,
+              -0
+            ],
+            "Anchored": true,
+            "CanCollide": true,
+            "CollisionLayers": 1,
+            "CollisionMask": 1,
+            "LocalPosition": [
+              -0.41452026,
+              -88.26193,
+              -6.6706905
+            ],
+            "LocalRotation": [
+              -0,
+              159.99962,
+              0
+            ],
+            "LocalSize": [
+              0.12470398,
+              7.4243517,
+              29.69726
+            ],
+            "Tags": []
+          },
+          "Children": [],
+          "LinkedModel": null,
+          "IsLinkedChild": false
+        }
+      ],
+      "LinkedModel": "d6bc2521-5daf-47d1-bea7-25c2731e5f7a",
+      "IsLinkedChild": false
+    }
+  ],
+  "NonInstanceObjects": []
+}
