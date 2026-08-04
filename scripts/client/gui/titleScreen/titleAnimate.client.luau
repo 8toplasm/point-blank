@@ -22,8 +22,7 @@ Lighting.ColorAdjust.Saturation = 0.3 --1.5
 Lighting.ColorAdjust.TintColor = Color.FromHex("ff007c") --ececff
 
 Environment.CurrentCamera.Mode = Enums.CameraMode.Scripted
-Environment.CurrentCamera.Position = Vector3.New(152, 77, 198)
-Environment.CurrentCamera.Rotation = Vector3.New(1.2, 8.4, 7.8)
+Environment.CurrentCamera.Position = Environment.CurrentMap.Camera.Value
 
 introText.Visible = true
 world.Sounds.Music.MainTheme:Play()
@@ -81,5 +80,4 @@ slideFromLeft:TweenVector2(Vector2.New(-0.2, 0.5), Vector2.New(0.5, 0.5), 2, fun
 	container.PositionRelative = v2
 end)
 
-Environment.CurrentCamera.Position = Vector3.New(152, 77, 198)
-Environment.CurrentCamera.Rotation = Vector3.New(0, 0, 0)
+Environment.CurrentCamera.Position = Environment.CurrentMap.Camera.Value

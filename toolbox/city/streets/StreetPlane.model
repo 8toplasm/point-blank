@@ -3,24 +3,24 @@
   "FileType": 1,
   "Objects": [
     {
-      "Name": "Streetplane",
+      "Name": "StreetPlane14",
       "ClassName": "Model",
-      "ID": "629ae54d-8b5b-4e6e-96b5-04ad999d4322",
+      "ID": "4aa4fbab-94cc-4b34-b4b3-d5e575e91b8b",
       "Properties": {
         "LocalPosition": [
-          -57,
-          13.234152,
-          -13.999971
+          79,
+          13.23414,
+          -96.74997
         ],
         "LocalRotation": [
           -0,
-          0,
+          3.1877214E-06,
           0
         ],
         "LocalSize": [
-          1,
-          1,
-          1
+          0.9999999,
+          0.99999976,
+          0.9999999
         ],
         "Tags": []
       },
@@ -28,7 +28,7 @@
         {
           "Name": "Part",
           "ClassName": "Part",
-          "ID": "a5a4a5cc-3008-4ef6-a870-cf255d728c6d",
+          "ID": "2522ae56-0eba-4492-8603-d8e034703374",
           "Properties": {
             "Color": "7e8088ff",
             "Velocity": [
@@ -42,7 +42,7 @@
               -0
             ],
             "Anchored": true,
-            "CanCollide": true,
+            "CanCollide": false,
             "CollisionLayers": 1,
             "CollisionMask": 1,
             "LocalPosition": [
@@ -64,12 +64,12 @@
           },
           "Children": [],
           "LinkedModel": null,
-          "IsLinkedChild": false
+          "IsLinkedChild": true
         },
         {
           "Name": "Part3",
           "ClassName": "Part",
-          "ID": "fb542b0c-d61c-454a-ba36-ceb616ffdeba",
+          "ID": "4b799a79-b68e-412b-98a3-06df3006e50a",
           "Properties": {
             "Color": "ffb000ff",
             "Velocity": [
@@ -105,12 +105,12 @@
           },
           "Children": [],
           "LinkedModel": null,
-          "IsLinkedChild": false
+          "IsLinkedChild": true
         },
         {
           "Name": "Part5",
           "ClassName": "Part",
-          "ID": "7d40746c-b5c0-49b0-bd48-058b9ae358f5",
+          "ID": "5b9a1b43-30f6-4d3e-9fc9-cfd6fda912a4",
           "Properties": {
             "Color": "5b5d69ff",
             "Velocity": [
@@ -124,7 +124,7 @@
               -0
             ],
             "Anchored": true,
-            "CanCollide": true,
+            "CanCollide": false,
             "CollisionLayers": 1,
             "CollisionMask": 1,
             "LocalPosition": [
@@ -146,12 +146,12 @@
           },
           "Children": [],
           "LinkedModel": null,
-          "IsLinkedChild": false
+          "IsLinkedChild": true
         },
         {
           "Name": "Part7",
           "ClassName": "Part",
-          "ID": "8d6725ff-4a46-48d8-a92c-75c026d9a401",
+          "ID": "22cea76f-d3c9-4536-a146-6a0781642ad1",
           "Properties": {
             "Color": "ffb000ff",
             "Velocity": [
@@ -187,12 +187,12 @@
           },
           "Children": [],
           "LinkedModel": null,
-          "IsLinkedChild": false
+          "IsLinkedChild": true
         },
         {
           "Name": "Part9",
           "ClassName": "Part",
-          "ID": "9328774a-7e4f-4319-a76c-eb921e6c5751",
+          "ID": "26e98757-8940-42d5-859f-c6852e2a6dfb",
           "Properties": {
             "Color": "7e8088ff",
             "Velocity": [
@@ -206,7 +206,7 @@
               -0
             ],
             "Anchored": true,
-            "CanCollide": true,
+            "CanCollide": false,
             "CollisionLayers": 1,
             "CollisionMask": 1,
             "LocalPosition": [
@@ -228,7 +228,7 @@
           },
           "Children": [],
           "LinkedModel": null,
-          "IsLinkedChild": false
+          "IsLinkedChild": true
         }
       ],
       "LinkedModel": "90fe6536-0925-4111-b972-56a2216e1add",

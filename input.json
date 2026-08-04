@@ -50,19 +50,25 @@
       "Type": "Button",
       "Buttons": [
         {
-          "KeyCode": 69
+          "KeyCode": 49
+        },
+        {
+          "KeyCode": 1011
         }
       ],
-      "Name": "Crouch"
+      "Name": "Weapon1"
     },
     {
       "Type": "Button",
       "Buttons": [
         {
-          "KeyCode": 81
+          "KeyCode": 50
+        },
+        {
+          "KeyCode": 1014
         }
       ],
-      "Name": "Dash"
+      "Name": "Weapon2"
     }
   ]
 }

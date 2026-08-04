@@ -6,6 +6,7 @@ local restart_msg = NetMessage.New()
 
 local difficultyModifier = 1
 local quantityModifier = 1.75
+local maxZombieAmnt = 100
 local z_storage = ServerHidden.zombieClasses
 
 round_classes = {
@@ -74,7 +75,7 @@ zombie_classes = {
 	z_storage.kamikaze
 }
 
-local spawns = Environment.City:WaitChild("Spawns")
+local spawns = Environment.CurrentMap:WaitChild("Spawns")
 for i, v in pairs(spawns:GetChildren()) do
 	v.Name = tostring(i)
 end
@@ -104,7 +105,7 @@ function makeRound()
 		zombieList[5] = currentModifier.howler
 		zombieList[6] = currentModifier.kami
 	
-	difficultyModifier = rs.RoundNumber.Value * (quantityModifier * currentModifier.mod)
+	difficultyModifier = math.min((rs.RoundNumber.Value * (quantityModifier * currentModifier.mod)), maxZombieAmnt)
 	print("Zombie Count: "..difficultyModifier)
 	
 	--Spawn zombies

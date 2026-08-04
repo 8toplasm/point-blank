@@ -19,7 +19,7 @@ end)
 rs.GameRestarted.Invoked:Connect(function()
 	if Environment.Entities.Players:FindChild(tostring(script.Parent.UserID)) == nil then
 		print("Player joining...")
-		script.Parent.Position = Environment.City.Spawn.Position
+		script.Parent.Position = Environment.CurrentMap.Spawn.Position
 		local playerToken = script.Token:Clone(Environment.Entities.Players)
 		playerToken.Name = tostring(script.Parent.UserID)
 	end
