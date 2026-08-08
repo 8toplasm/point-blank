@@ -7,7 +7,6 @@ rs.GameRestarted.Invoked:Connect(function()
 		if not v.CharacterInfo.UsesCustomAi.Value then
 			local ai = script.ZombieAi:Clone(v)
 			ai.IsEnabled = true
-			ai.HitChecker.IsEnabled = true
 		end
 	end
 end)

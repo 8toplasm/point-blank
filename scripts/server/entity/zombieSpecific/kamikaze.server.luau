@@ -49,9 +49,4 @@ while true do
 		wait(1)
 		script.Parent:Destroy()
 	end
-	
-	script.HitChecker.Hit.InvokedServer:Connect(function(plr, msg)
-		local damage = msg:GetNumber("dmg")
-		script.Parent:TakeDamage(damage)
-	end)
 end

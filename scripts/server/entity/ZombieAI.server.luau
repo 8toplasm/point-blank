@@ -5,11 +5,13 @@ while true do
 	wait(1)
 	script.Parent:TryStepUp()
 	
-	for i, v in pairs(Players:GetChildren()) do
-		local dist = (script.Parent.Position - v.Character.Position).Magnitude
-		if dist <= closest and Environment.Entities.Players:FindChild(tostring(v.UserID)) then
+	for i, v in pairs(Environment.Entities.Players:GetChildren()) do
+		local plr = Players:GetPlayerByID(tonumber(v.Name))
+		local dist = (script.Parent.Position - plr.Character.Position).Magnitude
+		
+		if dist <= closest then
 			closest = dist
-			script.Parent.MoveTarget = v.Character
+			script.Parent.MoveTarget = plr.Character
 		end
 	end
 	
@@ -31,9 +33,4 @@ while true do
 		wait(1)
 		script.Parent:Destroy()
 	end
-	
-	script.HitChecker.Hit.InvokedServer:Connect(function(plr, msg)
-		local damage = msg:GetNumber("dmg")
-		script.Parent:TakeDamage(damage)
-	end)
 end

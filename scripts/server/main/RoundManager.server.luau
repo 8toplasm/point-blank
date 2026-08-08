@@ -36,7 +36,7 @@ round_classes = {
 	},
 	{
 		singles = {},
-		mod = 4,
+		mod = 3,
 		zombie = 50,
 		skater = 25,
 		scout = 25,
@@ -48,7 +48,7 @@ round_classes = {
 	},
 	{
 		singles = {},
-		mod = 4,
+		mod = .75,
 		zombie = 0,
 		skater = 0,
 		scout = 0,
