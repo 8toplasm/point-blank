@@ -29,7 +29,7 @@ while true do
 		for i, v in pairs(Environment:OverlapSphere(script.Parent.Position, 50)) do
 			if v:IsA("NPC") then
 				v.Velocity += Vector3.Up * 200
-				v.Health -= 100
+				v:Kill()
 			end
 		end
 		
