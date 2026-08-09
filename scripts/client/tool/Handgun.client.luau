@@ -4,36 +4,37 @@ local plr = Players.LocalPlayer
 
 local db = false
 script.Parent.Activated:Connect(function()
-	if not db and script.Parent.Handgun_S.Ammo.Value > 0 then
+	if not db and script.Parent.Ammo.Value > 0 then
 		db = true
 		local mousePos = Input.GetMouseWorldPosition()
 		local rayOrigin = script.Parent.RaycastOrigin.Position
-		local ray = Environment:Raycast(rayOrigin, (mousePos - rayOrigin).Normalized, 300, {plr, script.Parent, Environment.RayIgnore})
+		local ray = Environment:Raycast(rayOrigin, (mousePos - rayOrigin).Normalized, 900, {plr, script.Parent, Environment.RayIgnore})
 		
 		world.Sounds.SFX.gunShot.Pitch = (1 + (math.random(-2, 2) / 10))
 		world.Sounds.SFX.gunShot:Play()
-		if ray ~= nil then
-			if ray.Instance:IsA("NPC") then
-				local msg = NetMessage.New()
-				msg:AddInstance("zombie", ray.Instance)
-				script.SendZombie:InvokeServer(msg)
+		if ray then
+		 if ray.Instance then
+				if ray.Instance:IsA("NPC") then
+					local msg = NetMessage.New()
+					msg:AddInstance("zombie", ray.Instance)
+					script.SendZombie:InvokeServer(msg)
+				end
 			end
+			--cosmetic stuff
+			local clone = bullet:Clone(Environment.RayIgnore)
+			clone:LookAt(ray.Position)
+			clone.Position = script.Parent.RaycastOrigin.Position
+			script.Parent.RaycastOrigin.PointLight.Enabled = true
 			
-		--cosmetic stuff
-		local clone = bullet:Clone(Environment.RayIgnore)
-		clone:LookAt(ray.Position)
-		clone.Position = script.Parent.RaycastOrigin.Position
-		script.Parent.RaycastOrigin.PointLight.Enabled = true
-		
-		wait(.005)
-		script.Parent.RaycastOrigin.PointLight.Enabled = false
-		
-		local t = Tween:NewTween()
-		t:TweenPosition(clone, ray.Position, 0.1)
-		t.Finished:Wait()
-		clone:Destroy()
-		wait(.005)
+			wait(.005)
+			script.Parent.RaycastOrigin.PointLight.Enabled = false
+			
+			local t = Tween:NewTween()
+			t:TweenPosition(clone, ray.Position, 0.1)
+			t.Finished:Wait()
+			clone:Destroy()
 		end
+		wait(.005)
 		db = false
 	end
 end)

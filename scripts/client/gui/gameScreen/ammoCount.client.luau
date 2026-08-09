@@ -1,8 +1,13 @@
 local plr = Players.LocalPlayer
-local ammo = plr.Backpack.handgun.Handgun_S.Ammo
-local level = plr.Backpack.handgun.Handgun_S.Level
 
-while true do 
+while true do
 	wait(.1)
-	script.Parent.Text = "AMMO: "..ammo.Value.."/"..(16 * level.Value)
+	if plr.HoldingTool then
+	 if plr.HoldingTool.Ammo then
+			local ammo = plr.HoldingTool.Ammo.Value
+			local level = plr.HoldingTool.Level.Value
+		
+			script.Parent.Text = "AMMO: "..ammo.."/"..(16 * level)
+		end
+	end
 end

@@ -1,18 +1,18 @@
-local ownerPlayer = script.Parent.Parent.Parent
+local ownerPlayer = script.Parent.Parent
 
-local dmg = 15 + 10 * (script.Level.Value - 1)
-local ammo = script.Ammo
-local maxAmmo = 16 * script.Level.Value
+local dmg = 15 + 10 * (script.Parent.Level.Value - 1)
+local ammo = script.Parent.Ammo
+local maxAmmo = 16 * script.Parent.Level.Value
 
 script.Parent.Activated:Connect(function()
   if ammo.Value > 0 then
 		ammo.Value -= 1
 	else
-		wait(2)
 		local msg = NetMessage.New()
 		msg:AddInstance("sound", world.Sounds.SFX.gunReload)
 		
 		script.PlaySound:InvokeClient(msg, ownerPlayer)
+		wait(1.4)
 		ammo.Value = maxAmmo
 	end
 end)
