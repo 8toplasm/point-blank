@@ -1,14 +1,18 @@
 local settingsUI = script.Parent.Body
 local settingsList = {
 	Environment.Entities.CountFeatures.QualityThreshold,
-	Lighting.ColorAdjust
+	Lighting.ColorAdjust,
+	world.Sounds.Music.MusicManager.MasterVolume
 }
-for i, v in pairs(settingsUI:GetChildren()) do
-	v.Input.Changed:Connect(function(text)
-		if v.Name == "1" then
-			settingsList[1].Value = tonumber(v.Input.Text)
-		elseif v.Name == "2" then
-			settingsList[2].Brightness = tonumber(v.Input.Text)
-		end
-	end)
-end
+
+settingsUI["1"].Input.Changed:Connect(function(text)
+		settingsList[1].Value = tonumber(text)
+end)
+
+settingsUI["2"].Input.Changed:Connect(function(text)
+		settingsList[2].Brightness = tonumber(text)
+end)
+
+settingsUI["3"].Input.Changed:Connect(function(text)
+		settingsList[3].Value = tonumber(text)
+end)

@@ -8,6 +8,7 @@ event.InvokedServer:Connect(function(plr, msg)
 	
 	if not plr.HoldingTool then
 			local clone = tool:Clone(plr)
+			clone.Level.Value = plr.Data.Weapons[tool.Name].Value
 			plr:EquipTool(clone)
 	else
 		if plr.HoldingTool.Name == tool.Name then

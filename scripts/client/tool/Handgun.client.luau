@@ -41,11 +41,9 @@ end)
 
 script.Parent.Handgun_S.PlaySound.InvokedClient:Connect(function(msg)
 	local sound = msg:GetInstance("sound")
+	if not sound.Playing then sound:Play() end
 	
 	if sound.Name == "zombieKill" then
-		sound:Play()
 		sound.Pitch += .1
-	else
-		if not sound.Playing then sound:Play() end
 	end
 end)

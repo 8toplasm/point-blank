@@ -4,6 +4,8 @@ local dmg = 15 + 10 * (script.Parent.Level.Value - 1)
 local ammo = script.Parent.Ammo
 local maxAmmo = 16 * script.Parent.Level.Value
 
+local killSoundDB = false
+
 script.Parent.Activated:Connect(function()
   if ammo.Value > 0 then
 		ammo.Value -= 1
@@ -26,5 +28,6 @@ script.Parent.Handgun_C.SendZombie.InvokedServer:Connect(function(plr, msg)
 		msg2:AddInstance("sound", world.Sounds.SFX.zombieKill)
 		
 		script.PlaySound:InvokeClient(msg2, plr)
+		wait(.75)
 	end
 end)

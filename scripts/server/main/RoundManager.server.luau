@@ -6,7 +6,7 @@ local restart_msg = NetMessage.New()
 
 local difficultyModifier = 1
 local quantityModifier = 1.75
-local maxZombieAmnt = 100
+local maxZombieAmnt = 40
 local z_storage = ServerHidden.zombieClasses
 
 round_classes = {
