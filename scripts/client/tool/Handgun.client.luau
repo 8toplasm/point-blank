@@ -1,6 +1,7 @@
 local sys = require(Hidden.Systems)
 local bullet = sys.item.projectiles.bullet
 local plr = Players.LocalPlayer
+local reload = Input:GetButton("Reload")
 
 local db = false
 script.Parent.Activated:Connect(function()
@@ -39,11 +40,21 @@ script.Parent.Activated:Connect(function()
 	end
 end)
 
+reload.Pressed:Connect(function()
+	local msg = NetMessage.New()
+	script.SendReload:InvokeServer(msg)
+	
+	if not world.Sounds.SFX.gunReload.Playing then world.Sounds.SFX.gunReload:Play() end
+end)
+
 script.Parent.Handgun_S.PlaySound.InvokedClient:Connect(function(msg)
 	local sound = msg:GetInstance("sound")
 	if not sound.Playing then sound:Play() end
 	
 	if sound.Name == "zombieKill" then
+		sound:Play()
 		sound.Pitch += .1
+	else
+		if not sound.Playing then sound:Play() end
 	end
 end)

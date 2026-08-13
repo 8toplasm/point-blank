@@ -23,11 +23,18 @@ script.Parent.Handgun_C.SendZombie.InvokedServer:Connect(function(plr, msg)
 	local zombie = msg:GetInstance("zombie")
 	zombie.Health -= dmg
 	
-	if zombie.Health <= 0 then
+	if zombie.Health <= 0 and not killSoundDB then
+	  killSoundDB = true
 		local msg2 = NetMessage.New()
 		msg2:AddInstance("sound", world.Sounds.SFX.zombieKill)
 		
 		script.PlaySound:InvokeClient(msg2, plr)
 		wait(.75)
+		killSoundDB = false
 	end
+end)
+
+script.Parent.Handgun_C.SendReload.InvokedServer:Connect(function()
+	wait(1.4)
+	ammo.Value = maxAmmo
 end)

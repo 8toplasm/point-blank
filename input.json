@@ -69,6 +69,30 @@
         }
       ],
       "Name": "Weapon2"
+    },
+    {
+      "Type": "Button",
+      "Buttons": [
+        {
+          "KeyCode": 4194325
+        },
+        {
+          "KeyCode": 1002
+        }
+      ],
+      "Name": "Dash"
+    },
+    {
+      "Type": "Button",
+      "Buttons": [
+        {
+          "KeyCode": 82
+        },
+        {
+          "KeyCode": 1003
+        }
+      ],
+      "Name": "Reload"
     }
   ]
 }

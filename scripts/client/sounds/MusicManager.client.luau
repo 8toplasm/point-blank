@@ -1,6 +1,7 @@
 local music = script.Parent
 local trackLoops = {
-	music.TempTrack1
+	music.TempTrack1,
+	music.Track1
 }
 
 for i, v in pairs(music:GetChildrenOfClass("Sound")) do

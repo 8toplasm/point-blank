@@ -146,7 +146,7 @@ while true do
 				rs.RoundClassName.Value = ""
 				rs.RoundTime.Value = 10
 		else
-			for i, v in pairs(Players:GetChildrenOfClass("Player")) do
+			for i, v in pairs(Players:GetPlayers()) do
 				wait(.1)
 				local health_t = Tween:NewTween()
 				health_t:TweenNumber(v.Health, v.MaxHealth, 2, function(health)

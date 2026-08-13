@@ -17,7 +17,7 @@ script.Parent.Hitbox.Touched:Connect(function()
 end)
 
 script.Parent.Died:Connect(function()
-	wait(.75)
+	wait(.5)
 	script.Parent:Destroy()
 end)
 
