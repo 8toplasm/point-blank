@@ -1,4 +1,4 @@
-local sys = require(Hidden.Systems)
+--[[local sys = require(Hidden.Systems)
 local event = sys.item.ItemEquipped
 local tools = ServerHidden.tools
 
@@ -20,3 +20,4 @@ event.InvokedServer:Connect(function(plr, msg)
 		end
 	end
 end)
+]]

@@ -9,6 +9,7 @@ for i, v in pairs(music:GetChildrenOfClass("Sound")) do
 	
 	v.Finished:Connect(function()
 		local track = trackLoops[math.random(1, #trackLoops)]
+		wait(1)
 		track:Play()
 	end)
 end

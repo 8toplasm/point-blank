@@ -1053,6 +1053,7 @@ declare class Player extends NPC
 	Team : Team
 	MovementMode : PlayerMovementMode
 	RotationMode : PlayerRotationMode
+	Grabbing : Physical
 	NetworkPing : number
 	IsAdmin : boolean
 	IsCreator : boolean
@@ -1067,6 +1068,8 @@ declare class Player extends NPC
 	StatChanged : PTSignal<Stat, any>
 	TeamChanged : PTSignal<Team>
 	Respawned : PTSignal
+	Grabbed : PTSignal<Physical>
+	Ungrabbed : PTSignal<Physical>
 	function Jump(self): nil
 	function Kick(self, reason: string): nil
 	function UnequipTool(self): nil
@@ -1267,6 +1270,7 @@ declare class Explosion extends Dynamic
 	AffectAnchored : boolean
 	Damage : number
 	AffectWelds : boolean
+	UseEffects : boolean
 	AffectPredicate : () -> ()
 	Touched : PTSignal<Instance>
 end

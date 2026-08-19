@@ -1,0 +1,15 @@
+local dashButton = Input:GetButton("Dash")
+local weapon1 = Input:GetButton("Weapon1")
+local weapon2 = Input:GetButton("Weapon2")
+
+dashButton.Pressed:Connect(function()
+	local msg = NetMessage.New()
+	msg:AddString("input", "dash")
+	script.SendInput:InvokeServer(msg)
+end)
+
+weapon1.Pressed:Connect(function()
+	local msg = NetMessage.New()
+	msg:AddString("input", "w1")
+	script.SendInput:InvokeServer(msg)
+end)
